@@ -1,0 +1,15 @@
+{
+  "name": "StethosMonitor",
+  "version": "1.0.0",
+  "authors": [
+    "Nicola Zirilli"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
