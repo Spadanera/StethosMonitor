@@ -30,6 +30,12 @@ namespace StethosMonitor
 
             bundles.Add(new ScriptBundle("~/bundles/angularjs").Include(
                 "~/bower_components/angularjs/anguar.min.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/knockout").Include(
+                "~/bower_components/knockout/knockout.js"));
+
+            bundles.Add(new ScriptBundle("~/bundles/chartjs").Include(
+                "~/bower_components/Chart.js/Chart.js"));
         }
     }
 }
